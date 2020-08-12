@@ -1,9 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Ujjwal</title>
+	<title>Resume Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
 </head>
 <body>
-<h1>hello</h1>
+	<section id="header">
+		<div class="container text-center" id="home">
+		<div class="user-box">
+		<img src="img/user1.jpeg" id="image">
+		<h1>Ujjwal Kesri</h1>
+		<p>Front End Developer</p>
+		</div>
+		</div>
+	<div class="scroll-btn"></div>
+	<div class="scroll-bar"><a href=""><span></span></a></div>
+	</section>
+
+	<section id="user-info">
+		<div class="nav-bar">
+			<nav class="navbar navbar-expand-lg">
+  				<a class="navbar-brand" href="#">MENU</a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    				<i class="fa fa-bars"></i>
+  				</button>
+  				<div class="collapse navbar-collapse" id="navbarNav">
+    				<ul class="navbar-nav ml-auto">
+      					<li class="nav-item ">
+        					<a class="nav-link" href="#header">HOME</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#about">ABOUT</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#resume">PROJECTS</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#contact">CONTACT</a>
+      					</li>
+    				</ul>
+  				</div>
+			</nav>
+		</div>
+
+		<div class="about-container row"  id="about">
+			
+			<div class="col-md-6">
+				<h3>ABOUT</h3>
+				<p class="About">I always have one thing in my mind - "There is a reason why you started it". And this is what keeps me pushing to learn and try new things. I am Ujjwal Kesri currently pursuing BTech from SRMIST in the field of Electronics and Communication Engineering. I had an interest in coding since school days which gave me the confidence to learn more. IoT, Coding, and Front End Development are the technical skills I pursue. Apart from technical knowledge I also have a great interest in photography. I hope you like the page, do share your feedback.</p>					
+			</div>
+
+			<div class="col-md-6">
+				<div class="skills-bar">
+					<h3><i class="fa fa-cogs" aria-hidden="true"></i>SKILLS<i class="fa fa-laptop" aria-hidden="true"></i></h3>
+					<p>
+						<i class="fa fa-html5" aria-hidden="true"></i><span>HTML5 / </span>
+						<i class="fa fa-css3" aria-hidden="true"></i><span>CSS3</span>
+					</p>
+					<p>
+						<i class="fa fa-code" aria-hidden="true"></i></i><span>PYTHON</span>
+					</p>
+					<p>
+						<i class="fa fa-bold" aria-hidden="true"></i><span>BOOTSTRAP</span>
+					</p>
+					<p>
+						</i><i class="fa fa-angle-double-left" aria-hidden="true"></i><span>C</span>
+					</p>
+					<p>
+						<i class="fa fa-stack-overflow" aria-hidden="true"></i><span>JAVA</span>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="social">
+			<ul>
+				<a href="https://www.linkedin.com/in/ujjwal-kesri-6b763916b" target="_blank"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+				<a href="https://twitter.com/UjjwalKesri?s=08" target="_blank" ><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+				<a href="https://github.com/ukesri" target="_blank"><li><i class="fa fa-github" aria-hidden="true"></i></li></a>
+				<a href="https://www.facebook.com/ujjwal.kesri/" target="_blank"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+			</ul>
+		</div>
+
+		<div class="resume" id="resume">
+		<div class="container">	
+		<div class="row">
+		<div>
+			<h3 class="text-center">My Projects</h3>
+			<ul class="timeline">
+				<li>
+					<h4>Smart Agriculture System</h4>
+					<p>An IoT based project using Arduino, Node MCU, BLYNK App to help the farmer by decreasing the human labor in recording data related to soil condition and solve the problems faced in agriculture. The system also consisted of an automated irrigation pump that can also be controlled using the mobile app depending on the soil conditions visible in the app itself.</p>
+				</li>
+				<li>
+					<h4>Portable Biometric Attendance System</h4>
+					<p>An IoT based project using Arduino, Node MCU, Firebase for making the attendance taking process more time efficient and less tiring by creating a module that can be passed to the students without interrupting the teacher's flow while teaching and also saving the time used in taking attendance and preventing proxies.</p>
+				</li>
+				<li>
+					<h4>Smart Classroom</h4>
+					<p>The project consists of automated switching and intensity of lights and fans, an indication of empty classrooms, a portable bio-metric attendance system, and a test app. The project aims at making the classrooms automated, thus saving time and increasing the efficiency of the class. It also saves power and reduces the time consumption in attendance taking process.</p>
+				</li>
+			</ul>
+		</div>
+		</div>	
+		</div>	
+		</div>
+		<div class="hq text-center">
+			<h3 class="quote" style="">"Don't stop when you are tired<br>Stop when you are done."</h3>
+		</div>
+
+
+		<div class="contact" id="contact">
+			<div class="container text-center">
+				<span style="font-size: 1.2em">Thanks for visiting</span>
+				<h1>Contact</h1>
+				<div class="row">
+					<div class="col-md-4">
+						<i class="fa fa-whatsapp" aria-hidden="true"></i>
+						<p>7458878086</p>
+					</div>
+					<div class="col-md-4">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<p>ukesri52@gmail.com</p>
+					</div>
+					<div class="col-md-4">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<p>@_vibrant_shades</p>
+					</div>
+				</div>
+				<!--<button type="button" class="btn btn-primary">Resume</button>
+				<button type="button" class="btn btn-primary"></button>-->
+			</div>
+			<div class="footer text-center">
+				UJJWAL KESRI<br>
+				Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020<br>
+				All rights reserved
+			</div>
+		</div>
+	</section>
 </body>
 </html>
